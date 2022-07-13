@@ -10,7 +10,7 @@ const ContactPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Contact Page">
+        <Layout PageTitle="Contact">
           <HeaderOne />
           <PageBanner title="Contact Us" name="Contact" />
           <ContactForm />

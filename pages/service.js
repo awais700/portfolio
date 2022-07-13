@@ -13,7 +13,7 @@ const ServicePage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Services Page">
+        <Layout PageTitle="Services">
           <HeaderOne />
           <PageBanner title="Services" name="Services" />
           <ServiceOne />

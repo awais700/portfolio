@@ -11,9 +11,9 @@ const PortfolioPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Portfolio 01 Page">
+        <Layout PageTitle="Portfolio">
           <HeaderOne />
-          <PageBanner title="Portfolio 01" name="Portfolio" />
+          <PageBanner title="Portfolio" name="Portfolio" />
           <PortfolioOne />
           <Footer />
         </Layout>

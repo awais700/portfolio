@@ -11,7 +11,7 @@ const BlogSinglePage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Blog Details Page">
+        <Layout PageTitle="Blog Details">
           <HeaderOne />
           <PageBanner title="Blog Details" name="Blog" />
           <BlogDetails />

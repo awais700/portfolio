@@ -29,9 +29,7 @@ const Layout = ({ PageTitle, children }) => {
   return (
     <Fragment>
       <Head>
-        <title>
-          {PageTitle} - Meipaly - Fine One Page Parallax NextJS Template
-        </title>
+        <title>{PageTitle} - Where You achieve your Vision</title>
       </Head>
       <div id="wrapper">{children}</div>
       {true === searchStatus ? <SearchPopup /> : null}
