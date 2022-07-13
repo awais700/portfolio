@@ -1,7 +1,7 @@
 import React from "react";
 
 const ServiceCardOne = ({ data }) => {
-  const { title, text, iconName, url } = data;
+  const { title, text, iconName } = data;
   return (
     <div className="icon_box_2 text-center">
       <h3>{title}</h3>

@@ -2,9 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 const ServiceCardTwo = ({ data }) => {
-  const { url, iconName, title } = data;
+  const { iconName, title } = data;
   return (
-    <Link href={url}>
+    <Link href={"#"}>
       <a className="icon_box_1 text-center">
         <div className="flipper">
           <div className="front">
