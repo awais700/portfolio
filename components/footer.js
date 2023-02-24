@@ -16,10 +16,7 @@ const Footer = () => {
               <p>
                 <strong>Where You achieve your Vision</strong>
                 <br />
-                Welcome to our web design agency. Lorem ipsum is simply free
-                text dolor sit amet consectetur adipisicing elit. Tempore
-                corrupti temporibus fuga earum asperiores, alias excepturi sit
-                mpedit fugit laudantium.
+                Welcome to our web design agency. Our vision is to be the leading software house, providing businesses with the technology solutions they need to stay ahead of the curve. We strive to be the trusted technology partner for businesses and organizations of all sizes, delivering cutting-edge technology solutions and best practices to help them succeed.
               </p>
             </aside>
           </div>
@@ -27,9 +24,9 @@ const Footer = () => {
             <aside className="widget contact_widgets">
               <h3 className="widget_title">contact</h3>
               <p>
-                66 Broklyn Street, New York
+              National Sciences and Technology Park (NSTP),
                 <br />
-                United States of America
+                UH12, Islamabad
               </p>
               <p>
                 E:{" "}
@@ -42,18 +39,13 @@ const Footer = () => {
               <h3 className="widget_title">social</h3>
               <ul>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-twitter"></i>Twitter
+                  <a href="https://www.linkedin.com/company/bitsjunction">
+                    <i className="fab fa-linkedin"></i>Linkedin
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/bitsjunction">
                     <i className="fa fa-facebook-square"></i>Facebook
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-youtube-play"></i>Youtube
                   </a>
                 </li>
               </ul>

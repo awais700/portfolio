@@ -14,7 +14,7 @@ const FeatureTabOne = () => {
             <SectionTitle data={sectionContent} />
           </Col>
         </Row>
-        <div id="tabs">
+        {/* <div id="tabs">
           <Row>
             <Col lg={12}>
               <ul className="chooseUs_title">
@@ -72,7 +72,7 @@ const FeatureTabOne = () => {
               ) : null;
             })}
           </div>
-        </div>
+        </div> */}
       </Container>
     </section>
   );

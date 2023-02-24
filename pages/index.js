@@ -1,23 +1,18 @@
-import React from "react";
-import Layout from "@/components/layout";
-import CallToActionOne from "@/components/call-to-action-one";
-import Footer from "@/components/footer";
-import BlogHome from "@/components/blog-home";
-import ParallaxOne from "@/components/parallax-1";
-import ClientCarouselOne from "@/components/client-carousel-one";
-import TeamCarousel from "@/components/team-carousel";
-import FeatureTabOne from "@/components/feature-tab-1";
-import FunfactOne from "@/components/funfact-one";
-import TrustedClient from "@/components/trusted-client";
-import PortfolioHome from "@/components/portfolio-home";
-import SubscribeForm from "@/components/subscribe-form";
-import ServiceTwo from "@/components/service-two";
 import AboutTwo from "@/components/about-two";
-import VideoTwo from "@/components/video-two";
+import CallToActionOne from "@/components/call-to-action-one";
+import FeatureTabOne from "@/components/feature-tab-1";
+import Footer from "@/components/footer";
+import FunfactOne from "@/components/funfact-one";
 import HeaderOne from "@/components/header-one";
-import SearchContextProvider from "@/context/search-context";
-import MenuContextProvider from "@/context/menu-context";
+import Layout from "@/components/layout";
+import ParallaxOne from "@/components/parallax-1";
+import ServiceTwo from "@/components/service-two";
 import SliderOne from "@/components/slider-one";
+import SubscribeForm from "@/components/subscribe-form";
+import TrustedClient from "@/components/trusted-client";
+import VideoTwo from "@/components/video-two";
+import MenuContextProvider from "@/context/menu-context";
+import SearchContextProvider from "@/context/search-context";
 
 const HomeOne = () => {
   return (
@@ -30,14 +25,10 @@ const HomeOne = () => {
           <AboutTwo />
           <VideoTwo />
           <SubscribeForm />
-          <PortfolioHome />
           <FunfactOne />
           <TrustedClient />
-          {/* <TeamCarousel /> */}
-          {/* <ClientCarouselOne /> */}
           <FeatureTabOne />
           <ParallaxOne />
-          <BlogHome />
           <CallToActionOne extraClassName="ready" />
           <Footer />
         </Layout>

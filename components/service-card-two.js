@@ -4,8 +4,7 @@ import Link from "next/link";
 const ServiceCardTwo = ({ data }) => {
   const { iconName, title } = data;
   return (
-    <Link href={"#"}>
-      <a className="icon_box_1 text-center">
+      <div className="icon_box_1 text-center">
         <div className="flipper">
           <div className="front">
             <i className={iconName}></i>
@@ -16,8 +15,7 @@ const ServiceCardTwo = ({ data }) => {
             <h3>{title}</h3>
           </div>
         </div>
-      </a>
-    </Link>
+      </div>
   );
 };
 

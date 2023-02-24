@@ -19,20 +19,20 @@ export const NavLinks = [
     name: "Services",
     url: "/service",
   },
-  {
-    name: "Portfolio",
-    url: "/portfolio",
-  },
-  {
-    name: "Blog",
-    url: "/blog",
-    subItems: [
-      {
-        name: "Blog Details",
-        url: "/blog-single",
-      },
-    ],
-  },
+  // {
+  //   name: "Portfolio",
+  //   url: "/portfolio",
+  // },
+  // {
+  //   name: "Blog",
+  //   url: "/blog",
+  //   subItems: [
+  //     {
+  //       name: "Blog Details",
+  //       url: "/blog-single",
+  //     },
+  //   ],
+  // },
   {
     name: "Contact",
     url: "/contact",
@@ -46,7 +46,7 @@ export const SliderOneData = [
   {
     image: sliderOne01,
     subTitle: "WELCOME TO BITS JUNCTION AGENCY",
-    title: "SMART WEB \n DESIGN AGENCY.",
+    title: "Where Technology \n Meets Innovation.",
     button: {
       label: "DISCOVER MORE",
       url: "/about",
@@ -55,7 +55,7 @@ export const SliderOneData = [
   {
     image: sliderOne02,
     subTitle: "WELCOME TO BITS JUNCTION AGENCY",
-    title: "SMART WEB \n DESIGN AGENCY.",
+    title: "Where Technology \n Meets Innovation.",
     button: {
       label: "DISCOVER MORE",
       url: "/about",
@@ -492,28 +492,43 @@ export const ServicePostTwoData = {
   },
   posts: [
     {
-      title: "Website Development",
+      title: "Custom Software Development",
       iconName: "mei-web-design",
       url: "/service-details",
     },
     {
-      title: "Graphic Designing",
-      iconName: "mei-computer-graphic",
+      title: "Web Application Development",
+      iconName: "mei-web-design",
       url: "/service-details",
     },
     {
-      title: "Digital Marketing",
-      iconName: "mei-development-1",
+      title: "Mobile Application Development",
+      iconName: "mei-app-development",
       url: "/service-details",
     },
     {
-      title: "SEo & Content Writing",
+      title: "Cloud computing services",
       iconName: "mei-development",
       url: "/service-details",
     },
     {
-      title: "App Development",
-      iconName: "mei-app-development",
+      title: "Quality assurance and testing",
+      iconName: "mei-transfer",
+      url: "/service-details",
+    },
+    {
+      title: "Cybersecurity services",
+      iconName: "mei-development",
+      url: "/service-details",
+    },
+    {
+      title: "AI and Machine Learning",
+      iconName: "mei-development",
+      url: "/service-details",
+    },
+    {
+      title: "Data migration and Integration",
+      iconName: "mei-settings",
       url: "/service-details",
     },
   ],
@@ -551,7 +566,7 @@ export const ServicePostThreeData = {
 export const FunfactData = [
   {
     title: "Projects Completed",
-    countNumber: 35,
+    countNumber: 20,
   },
   {
     title: "Active Clients",
@@ -559,11 +574,11 @@ export const FunfactData = [
   },
   {
     title: "Year of Experience",
-    countNumber: 3,
+    countNumber: 2,
   },
   {
     title: "Happy Clients",
-    countNumber: 20,
+    countNumber: 12,
   },
 ];
 
@@ -571,8 +586,8 @@ import trustClient01 from "@/images/home_1/4.jpg";
 
 export const TrustClientData = {
   image: trustClient01,
-  title: "We are trusted by more than 35 clients",
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita-tion ullamco laboris nisi ut aliquip ex ea commodo.",
+  title: "We are trusted by more than 12 clients",
+  text: "Our services are not limited to software development. We also offer IT consulting, quality assurance and testing, maintenance and support, cybersecurity services, artificial intelligence and machine learning, and data migration and integration. Whatever your technology needs, our team is here to help.",
   url: "/about",
 };
 
@@ -617,13 +632,13 @@ import aboutOne02 from "@/images/about/2.jpg";
 
 export const AboutOneData = {
   sectionContent: {
-    title: "build better website alot quicker with meipaly agency",
+    title: "build better website quicker with Bits Junction agency",
     subTitle: "get to know us",
   },
   gallery: [aboutOne01, aboutOne02],
   counter: {
     title: "Company Started",
-    number: 2019,
+    number: 2021,
   },
 };
 
@@ -747,9 +762,9 @@ import video01 from "@/images/about/3.jpg";
 
 export const VideoOneData = {
   sectionContent: {
-    title: "Make amazing websites without touching cod",
+    title: "where technology meets innovation",
     subTitle: "the only design you need",
-    text: "Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus aliquet.",
+    text: "We are proud to be a trusted technology partner for businesses and organizations of all sizes. Our goal is to help our clients stay ahead of the curve, and we are committed to providing the latest technology solutions and best practices to help them succeed. Thank you for considering Bits Junction as your technology partner. We look forward to the opportunity to work with you and help you take your business to the next level.",
   },
   video: {
     image: video01,
@@ -858,88 +873,88 @@ export const FeatureTabData = {
   sectionContent: {
     title: "why choose us",
     subTitle: "our benefits",
-    text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
+    text: "Choosing Bits Junction for your professional tech solution means partnering with a team of experienced professionals who are dedicated to delivering innovative and high-quality solutions. Our team of experts stays ahead of the curve, utilizing the latest technologies to create customized and user-friendly software. Our commitment to customer satisfaction, attention to detail, and transparent communication makes us the ideal choice for businesses looking to streamline their operations and achieve their goals. Trust Bits Junction to bring your vision to life and drive your success.",
   },
-  posts: [
-    {
-      title: "Latest technology",
-      content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
-      image: featureTab01,
-      lists: [
-        {
-          item: "Self-contained, state-of-the-art time clock",
-        },
-        {
-          item: "Scalability of up to 500 employees per time clock",
-        },
-        {
-          item: "The ability to connect up to 32 time clocks",
-        },
-        {
-          item: "Employee self-enrollment",
-        },
-        {
-          item: "Payroll integration",
-        },
-        {
-          item: "Built-in backup camera to verify failed punches",
-        },
-      ],
-    },
-    {
-      title: "Awesome Support",
-      content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
-      image: featureTab02,
-      lists: [
-        {
-          item: "Self-contained, state-of-the-art time clock",
-        },
-        {
-          item: "Scalability of up to 500 employees per time clock",
-        },
-        {
-          item: "The ability to connect up to 32 time clocks",
-        },
-        {
-          item: "Employee self-enrollment",
-        },
-        {
-          item: "Payroll integration",
-        },
-        {
-          item: "Built-in backup camera to verify failed punches",
-        },
-      ],
-    },
-    {
-      title: "1 Click demo install",
-      content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
-      image: featureTab03,
-      lists: [
-        {
-          item: "Self-contained, state-of-the-art time clock",
-        },
-        {
-          item: "Scalability of up to 500 employees per time clock",
-        },
-        {
-          item: "The ability to connect up to 32 time clocks",
-        },
-        {
-          item: "Employee self-enrollment",
-        },
-        {
-          item: "Payroll integration",
-        },
-        {
-          item: "Built-in backup camera to verify failed punches",
-        },
-      ],
-    },
-  ],
+  // posts: [
+  //   {
+  //     title: "Latest technology",
+  //     content:
+  //       "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+  //     image: featureTab01,
+  //     lists: [
+  //       {
+  //         item: "Self-contained, state-of-the-art time clock",
+  //       },
+  //       {
+  //         item: "Scalability of up to 500 employees per time clock",
+  //       },
+  //       {
+  //         item: "The ability to connect up to 32 time clocks",
+  //       },
+  //       {
+  //         item: "Employee self-enrollment",
+  //       },
+  //       {
+  //         item: "Payroll integration",
+  //       },
+  //       {
+  //         item: "Built-in backup camera to verify failed punches",
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     title: "Awesome Support",
+  //     content:
+  //       "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+  //     image: featureTab02,
+  //     lists: [
+  //       {
+  //         item: "Self-contained, state-of-the-art time clock",
+  //       },
+  //       {
+  //         item: "Scalability of up to 500 employees per time clock",
+  //       },
+  //       {
+  //         item: "The ability to connect up to 32 time clocks",
+  //       },
+  //       {
+  //         item: "Employee self-enrollment",
+  //       },
+  //       {
+  //         item: "Payroll integration",
+  //       },
+  //       {
+  //         item: "Built-in backup camera to verify failed punches",
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     title: "1 Click demo install",
+  //     content:
+  //       "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+  //     image: featureTab03,
+  //     lists: [
+  //       {
+  //         item: "Self-contained, state-of-the-art time clock",
+  //       },
+  //       {
+  //         item: "Scalability of up to 500 employees per time clock",
+  //       },
+  //       {
+  //         item: "The ability to connect up to 32 time clocks",
+  //       },
+  //       {
+  //         item: "Employee self-enrollment",
+  //       },
+  //       {
+  //         item: "Payroll integration",
+  //       },
+  //       {
+  //         item: "Built-in backup camera to verify failed punches",
+  //       },
+  //     ],
+  //   },
+  // ],
 };
 
 export const ParallaxOneData = {
@@ -963,7 +978,7 @@ export const VideoTwoData = {
   sectionContent: {
     title: "Digital Experience",
     subTitle: "how do we works",
-    text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
+    text: "At BitsJunction, we understand that every business is different, and that is why we take a tailored approach to software development \n Our team of experts works closely with clients to gather requirements, design, and develop custom software that meets their goals and objectives.",
   },
   video: {
     title: "Watch Video",
@@ -977,9 +992,9 @@ import aboutTwo02 from "@/images/home_1/1.jpg";
 
 export const AboutTwoData = {
   sectionContent: {
-    title: "We are the Best Website agency in The World",
-    subTitle: "welcom to smart meipaly web agency",
-    text: "We are committed to providing our customers with exceptional service while offering our employees the best training. Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the 2019S.",
+    title: "We are the Best Website agency",
+    subTitle: "welcom to smart Bits Junction web agency",
+    text: "Welcome to BitsJunction, A house dedicated to delivering innovative technology solutions to businesses and organizations of all sizes. We believe that technology has the power to transform businesses and drive success, and we are committed to providing custom software solutions that meet the unique needs of each of our clients.",
   },
   button: {
     label: "Learn More",

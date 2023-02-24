@@ -25,7 +25,8 @@ const PopupMenu = () => {
               <div className="logo2">
                 <Link href="/">
                   <a>
-                    <img src={LogoImage.light} alt="" />
+                    {/* <img src={LogoImage.light} alt="" /> */}
+                    <h2 style={{ color: "#fff" }}>Bits Junction</h2>
                   </a>
                 </Link>
               </div>
@@ -92,10 +93,10 @@ const PopupMenu = () => {
           <div className="row">
             <div className="col-lg-6 col-sm-12 col-xs-12 text-center text-md-left">
               <ul className="footer__contacts">
-                <li>Phone: 666 888 000</li>
-                <li>Email: needhelp@meipaly.com</li>
+                {/* <li>Phone: 666 888 000</li> */}
+                <li>Email: info@bitsjunction.com</li>
                 <li>
-                  Address: 66 Broklyn Street, New York United States of America
+                  Address: National Sciences and Technology Park (NSTP), H12, Islamabad
                 </li>
               </ul>
             </div>
@@ -103,18 +104,13 @@ const PopupMenu = () => {
               <div className="popUp_social text-center text-md-right">
                 <ul>
                   <li>
-                    <a href="#">
-                      <i className="fa fa-twitter"></i>Twitter
+                    <a href=" https://www.linkedin.com/company/bitsjunction/">
+                      <i className="fab fa-linkedin"></i>Linkedin
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/bitsjunction">
                       <i className="fa fa-facebook-square"></i>Facebook
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-youtube-play"></i>Youtube
                     </a>
                   </li>
                 </ul>
