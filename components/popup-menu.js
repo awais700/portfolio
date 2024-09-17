@@ -26,7 +26,7 @@ const PopupMenu = () => {
                 <Link href="/">
                   <a>
                     {/* <img src={LogoImage.light} alt="" /> */}
-                    <h2 style={{ color: "#fff" }}>Bits Junction</h2>
+                    <h2 style={{ color: "#fff" }}>Dabrrio</h2>
                   </a>
                 </Link>
               </div>
@@ -104,12 +104,12 @@ const PopupMenu = () => {
               <div className="popUp_social text-center text-md-right">
                 <ul>
                   <li>
-                    <a href=" https://www.linkedin.com/company/bitsjunction/">
+                    <a href=" https://www.linkedin.com/company/dabrrio/">
                       <i className="fab fa-linkedin-square"></i>Linkedin
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/bitsjunction">
+                    <a href="https://www.facebook.com/dabrrio">
                       <i className="fa fa-facebook-square"></i>Facebook
                     </a>
                   </li>

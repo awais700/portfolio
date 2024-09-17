@@ -11,7 +11,7 @@ const Footer = () => {
             <aside className="widget aboutwidget">
               <a href="/">
                 {/* <img src={light} alt="" /> */}
-                <h2 style={{ color: "#fff" }}>Bits Junction</h2>
+                <h2 style={{ color: "#fff" }}>Dabrrio</h2>
               </a>
               <p>
                 <strong>Where You achieve your Vision</strong>
@@ -56,12 +56,12 @@ const Footer = () => {
               <h3 className="widget_title">social</h3>
               <ul>
                 <li>
-                  <a href="https://www.linkedin.com/company/bitsjunction">
+                  <a href="https://www.linkedin.com/company/dabrrio">
                     <i className="fab fa-linkedin"></i>Linkedin
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/bitsjunction">
+                  <a href="https://www.facebook.com/dabrrio">
                     <i className="fa fa-facebook-square"></i>Facebook
                   </a>
                 </li>
@@ -73,7 +73,7 @@ const Footer = () => {
           <div className="col-lg-12 col-sm-12 text-center">
             <div className="copyright">
               © copyright {new Date().getFullYear()} by{" "}
-              <a href="/">bitsjunction.com</a>
+              <a href="/">dabrrio.com</a>
             </div>
           </div>
         </div>

@@ -47,7 +47,7 @@ const HeaderOne = () => {
               <Link href="/">
                 <a>
                   {/* <img src={LogoImage.light} alt="" /> */}
-                  <h2 style={{ color: "#fff" }}>Bits Junction</h2>
+                  <h2 style={{ color: "#fff" }}>Dabrrio</h2>
                 </a>
               </Link>
             </div>

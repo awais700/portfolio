@@ -45,7 +45,7 @@ import sliderOne02 from "@/images/slider/1_2.jpg";
 export const SliderOneData = [
   {
     image: sliderOne01,
-    subTitle: "WELCOME TO BITS JUNCTION AGENCY",
+    subTitle: "WELCOME TO DABRRIO AGENCY",
     title: "Where Technology \n Meets Innovation.",
     button: {
       label: "DISCOVER MORE",
@@ -54,7 +54,7 @@ export const SliderOneData = [
   },
   // {
   //   image: sliderOne02,
-  //   subTitle: "WELCOME TO BITS JUNCTION AGENCY",
+  //   subTitle: "WELCOME TO Dabrrio AGENCY",
   //   title: "Where Technology \n Meets Innovation.",
   //   button: {
   //     label: "DISCOVER MORE",
@@ -633,7 +633,7 @@ import aboutOne02 from "@/images/about/2.jpg";
 
 export const AboutOneData = {
   sectionContent: {
-    title: "build better website quicker with Bits Junction agency",
+    title: "build better website quicker with Dabrrio agency",
     subTitle: "get to know us",
   },
   gallery: [aboutOne01, aboutOne02],
@@ -765,7 +765,7 @@ export const VideoOneData = {
   sectionContent: {
     title: "where technology meets innovation",
     subTitle: "the only design you need",
-    text: "We are proud to be a trusted technology partner for businesses and organizations of all sizes. Our goal is to help our clients stay ahead of the curve, and we are committed to providing the latest technology solutions and best practices to help them succeed. Thank you for considering Bits Junction as your technology partner. We look forward to the opportunity to work with you and help you take your business to the next level.",
+    text: "We are proud to be a trusted technology partner for businesses and organizations of all sizes. Our goal is to help our clients stay ahead of the curve, and we are committed to providing the latest technology solutions and best practices to help them succeed. Thank you for considering Dabrrio as your technology partner. We look forward to the opportunity to work with you and help you take your business to the next level.",
   },
   video: {
     image: video01,
@@ -874,7 +874,7 @@ export const FeatureTabData = {
   sectionContent: {
     title: "why choose us",
     subTitle: "our benefits",
-    text: "Choosing Bits Junction for your professional tech solution means partnering with a team of experienced professionals who are dedicated to delivering innovative and high-quality solutions. Our team of experts stays ahead of the curve, utilizing the latest technologies to create customized and user-friendly software. Our commitment to customer satisfaction, attention to detail, and transparent communication makes us the ideal choice for businesses looking to streamline their operations and achieve their goals. Trust Bits Junction to bring your vision to life and drive your success.",
+    text: "Choosing Dabrrio for your professional tech solution means partnering with a team of experienced professionals who are dedicated to delivering innovative and high-quality solutions. Our team of experts stays ahead of the curve, utilizing the latest technologies to create customized and user-friendly software. Our commitment to customer satisfaction, attention to detail, and transparent communication makes us the ideal choice for businesses looking to streamline their operations and achieve their goals. Trust Dabrrio to bring your vision to life and drive your success.",
   },
   // posts: [
   //   {
@@ -979,7 +979,7 @@ export const VideoTwoData = {
   sectionContent: {
     title: "Digital Experience",
     subTitle: "how do we works",
-    text: "At BitsJunction, we understand that every business is different, and that is why we take a tailored approach to software development \n Our team of experts works closely with clients to gather requirements, design, and develop custom software that meets their goals and objectives.",
+    text: "At Dabrrio, we understand that every business is different, and that is why we take a tailored approach to software development \n Our team of experts works closely with clients to gather requirements, design, and develop custom software that meets their goals and objectives.",
   },
   video: {
     title: "Watch Video",
@@ -994,8 +994,8 @@ import aboutTwo02 from "@/images/home_1/1.jpg";
 export const AboutTwoData = {
   sectionContent: {
     title: "We are the Best Website agency",
-    subTitle: "welcom to smart Bits Junction web agency",
-    text: "Welcome to BitsJunction, A house dedicated to delivering innovative technology solutions to businesses and organizations of all sizes. We believe that technology has the power to transform businesses and drive success, and we are committed to providing custom software solutions that meet the unique needs of each of our clients.",
+    subTitle: "welcom to smart Dabrrio web agency",
+    text: "Welcome to Dabrrio, A house dedicated to delivering innovative technology solutions to businesses and organizations of all sizes. We believe that technology has the power to transform businesses and drive success, and we are committed to providing custom software solutions that meet the unique needs of each of our clients.",
   },
   button: {
     label: "Learn More",
