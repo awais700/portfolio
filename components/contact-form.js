@@ -6,11 +6,22 @@ const ContactForm = () => {
   return (
     <section className="commonSection ContactPage">
       <div className="container">
-        <div className="row">
+        <div className="row" style={{ marginBottom: "54px" }}>
           <div className="col-lg-12 text-center">
             <h4 className="sub_title">{subTitle}</h4>
             <h2 className="sec_title">{title}</h2>
-            <p className="sec_desc">{description}</p>
+            <p style={{ marginBottom: "10px" }} className="sec_desc">
+              {description}
+            </p>
+
+            <p style={{ marginBottom: "0px" }}>
+              Email:{" "}
+              <a href="mailto:contact@dabrrio.com">contact@dabrrio.com</a>
+            </p>
+
+            <p>
+              Phone: <a href="tel:+923319883173">+92 331 9883173</a>
+            </p>
           </div>
         </div>
         <div className="row">

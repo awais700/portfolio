@@ -93,10 +93,10 @@ const PopupMenu = () => {
           <div className="row">
             <div className="col-lg-6 col-sm-12 col-xs-12 text-center text-md-left">
               <ul className="footer__contacts">
-                {/* <li>Phone: 666 888 000</li> */}
-                <li>Email: info@bitsjunction.com</li>
+                <li>Phone: +92 331 9883173</li>
+                <li>Email: info@dabrrio.com</li>
                 <li>
-                  Address: National Sciences and Technology Park (NSTP), H12, Islamabad
+                  Address: Dabrrio Office, 9 Floor, State Life Building, Islamabad
                 </li>
               </ul>
             </div>
@@ -105,7 +105,7 @@ const PopupMenu = () => {
                 <ul>
                   <li>
                     <a href=" https://www.linkedin.com/company/bitsjunction/">
-                      <i className="fab fa-linkedin"></i>Linkedin
+                      <i className="fab fa-linkedin-square"></i>Linkedin
                     </a>
                   </li>
                   <li>

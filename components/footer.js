@@ -23,14 +23,31 @@ const Footer = () => {
           <div className="col-lg-4 col-sm-4 col-md-4">
             <aside className="widget contact_widgets">
               <h3 className="widget_title">contact</h3>
+              <div>
+
               <p>
-              National Sciences and Technology Park (NSTP),
+                Office NO#6, 3rd Floor JB tower,
                 <br />
-                UH12, Islamabad
+                Peshawar
               </p>
               <p>
-                E:{" "}
-                <a href="mailto:info@bitsjunction.com">info@bitsjunction.com</a>
+                Dabrrio Office, 9 Floor, State Life Building,
+                <br />
+                Islamabad
+              </p>
+              </div>
+              <p>
+                Email:{" "}
+                <a href="mailto:info@dabrrio.com">info@dabrrio.com</a>
+              </p>
+              <p>
+                HR Email:{" "}
+                <a href="mailto:hr@Dabrrio.com">hr@Dabrrio.com</a>
+              </p>
+
+              <p>
+                Phone:{" "}
+                <a href="tel:+923319883173">+92 331 9883173</a>
               </p>
             </aside>
           </div>

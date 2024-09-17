@@ -52,15 +52,15 @@ export const SliderOneData = [
       url: "/about",
     },
   },
-  {
-    image: sliderOne02,
-    subTitle: "WELCOME TO BITS JUNCTION AGENCY",
-    title: "Where Technology \n Meets Innovation.",
-    button: {
-      label: "DISCOVER MORE",
-      url: "/about",
-    },
-  },
+  // {
+  //   image: sliderOne02,
+  //   subTitle: "WELCOME TO BITS JUNCTION AGENCY",
+  //   title: "Where Technology \n Meets Innovation.",
+  //   button: {
+  //     label: "DISCOVER MORE",
+  //     url: "/about",
+  //   },
+  // },
 ];
 
 import sliderTwo01 from "@/images/slider/2_1.jpg";
@@ -191,7 +191,8 @@ export const ContactFormTitle = {
   subTitle: "Contact with us",
   title: "write us a message",
   description:
-    "We are committed to providing our customers with exceptional service while \n      offering our employees the best training. ",
+    "We are committed to providing our customers with exceptional service while \n offering our employees the best training.",
+  
 };
 
 import blogImage1 from "@/images/blog/1.jpg";
@@ -454,20 +455,20 @@ export const PortfolioDetailsData = {
 export const ServicePostData = [
   {
     title: "Modren Design",
-    text: "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
-    iconName: "mei-settings",
+    text: "Sleek, user-centric aesthetics that blend form and function for contemporary appeal.",
+    iconName: "mei-pie-chart",
     url: "/service-details",
   },
   {
     title: "Digital products",
-    text: "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
+    text: "Software-based solutions that deliver value through digital interfaces and experiences.",
     iconName: "mei-transfer",
     url: "/service-details",
   },
   {
     title: "Marketing Strategy",
-    text: "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
-    iconName: "mei-pie-chart",
+    text: "Data-driven approach to promote products or services and engage target audiences effectively.",
+    iconName: "mei-app-development",
     url: "/service-details",
   },
 ];

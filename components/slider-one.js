@@ -20,9 +20,9 @@ const SliderOne = () => {
   };
   return (
     <section className="main-slider">
-      <Swiper {...mainSlideOptions}>
+      <div {...mainSlideOptions}>
         {SliderOneData.map(({ image, subTitle, title, button }, index) => (
-          <SwiperSlide key={index}>
+          <div key={index}>
             <div
               className="image-layer"
               style={{ backgroundImage: `url(${image})` }}
@@ -40,15 +40,15 @@ const SliderOne = () => {
                 </Col>
               </Row>
             </Container>
-          </SwiperSlide>
+          </div>
         ))}
-        <div className="swiper-button-prev" id="main-slider-prev">
+        {/* <div className="swiper-button-prev" id="main-slider-prev">
           <i className="fa fa-angle-left"></i>
         </div>
         <div className="swiper-button-next" id="main-slider-next">
           <i className="fa fa-angle-right"></i>
-        </div>
-      </Swiper>
+        </div> */}
+      </div>
     </section>
   );
 };

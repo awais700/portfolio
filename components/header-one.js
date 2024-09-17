@@ -88,13 +88,6 @@ const HeaderOne = () => {
           <Col lg={2} md={2} sm={4} className="col-6">
             <div className="navigator text-right">
               <a
-                className="search searchToggler"
-                href="#"
-                onClick={handleSearchClick}
-              >
-                <i className="mei-magnifying-glass"></i>
-              </a>
-              <a
                 href="#"
                 onClick={handleMenuClick}
                 id="open-overlay-nav"
