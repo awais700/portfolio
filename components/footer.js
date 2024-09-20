@@ -10,8 +10,8 @@ const Footer = () => {
           <div className="col-lg-5 col-sm-6 col-md-5">
             <aside className="widget aboutwidget">
               <a href="/">
-                {/* <img src={light} alt="" /> */}
-                <h2 style={{ color: "#fff" }}>Dabrrio</h2>
+                <img src={light} alt="" />
+                {/* <h2 style={{ color: "#fff" }}>Dabrrio</h2> */}
               </a>
               <p>
                 <strong>Where You achieve your Vision</strong>
